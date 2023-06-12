@@ -1,0 +1,141 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue
+}
+
+.green {
+    color: green;
+
+}
+
+#blue {
+    color: blue;
+}
+
+section div div div div {
+    background: green;
+}
+
+section div div div p {
+    background: red;
+}
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+ul > li {
+    background: red;
+}
+
+button.header-button + span {
+    background: red;
+}
+
+p.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+div.first-task li:first-child {
+    color: white;
+}
+
+div.second-task ul:first-child li:first-child {
+    color: yellow;
+}
+
+div.third-task ul:last-child li:first-child {
+    background: yellow;
+}
+
+div.four-task li:last-child {
+    background: yellow;
+}
+
+div.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+section div.only-child-task div:only-child {
+    color: red;
+}
+
+div.seven-task p:first-of-type {
+    background: red;
+}
+
+div.eight-task span:last-of-type {
+    background: red;
+}
+
+div.text-wrapper p:only-of-type {
+    background: yellow;
+}
+
+*[href] {
+    color: white;
+}
+
+li[value] {
+    color: yellow;
+}
+
+li[value="3"] {
+    background: red;
+}
+
+button[class~="primary"] {
+    background: blue;
+}
+
+button[class|="secondary"] {
+    background: red;
+}
+
+li[class^="b"] {
+    color: green;
+    background: white;
+}
+
+li[class*="on"] {
+    color: green;
+    background: white;
+}
+
+span[class$="s"] {
+    color: blue;
+    background: white;
+}
+
+h2::first-letter {
+    color: red;
+}
+
+div.lesson-three-task-ten::first-line {
+    background: yellow;
+}
+
+input::placeholder {
+    background: red;
+}
+
+div.lesson-three-task-twelve li::before {
+    content: "➤";
+}
+
+div.lesson-three-task-thirteen li::after {
+    content: "➤";
+}
